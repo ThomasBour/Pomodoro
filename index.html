@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="sign">
+        <span class="fast-flicker">Po</span>mod<span class="flicker">oroT</span>imer
+    </div>
+    <div id="container">
+        <p id="work" class="label"> Travail </p>
+        <p id="break" class="label"> Pause </p>
+        <p id="cycles" class="label"> Cycles </p>
+        <div id="work-timer" class="timer">
+            <p id="workMinutes"> 25 </p>
+            <p class="semicoloc"> : </p>
+            <p id="workSeconds"> 00 </p>
+        </div>
+
+        <p id="compteur" class="timer"> 0 </p>
+        <div id="break-timer" class="timer">
+            <p id="breakMinutes"> 5 </p>
+            <p class="semicoloc"> : </p>
+            <p id="breakSeconds"> 00 </p>
+        </div>
+        <button id="start" class="bouton">Start</button>
+        <button id="stop" class="bouton">Pause</button>
+        <button id="reset" class="bouton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
